@@ -1,3 +1,13 @@
-# CourseProject
+# Intelligent Browsing - Github Code Annotation System
 
-Please fork this repository and paste the github link of your fork on Microsoft CMT. Detailed instructions are on Coursera under Week 1: Course Project Overview/Week 9 Activities.
+## Team Members
+
+Shivang Saxena
+
+## Team Name
+
+Git Good
+
+## Proposal
+
+Please see "410 Proposal.pdf" for the proposal
