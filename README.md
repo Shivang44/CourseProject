@@ -20,6 +20,6 @@ Please see "Progress Report.pdf" for the project progress report
 
 Please see the directory "chrome_extension" for the source code of the extension.
 
-## Documentation
+## Documentation (including setup instructions, implementation details, and usage instructions) 
 
 Please see "Documentation.pdf" for the complete project documentation
