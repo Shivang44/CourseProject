@@ -10,6 +10,7 @@ Annotation Model
 */
 
 
+// Mock some test data for easier testing
 chrome.runtime.onInstalled.addListener(() => {
   console.log('Default background color set to %cgreen', `color: ${color}`);
   const mockAnnotations = [
@@ -28,6 +29,7 @@ chrome.runtime.onInstalled.addListener(() => {
 });
 
 
+// When a tab is completed loading, fetch any annotations that may exist for it
 chrome.tabs.onUpdated.addListener((tabId, change, tab) => {
   console.log(change);
   console.log(tab);
@@ -38,6 +40,7 @@ chrome.tabs.onUpdated.addListener((tabId, change, tab) => {
 });
 
 
+// Fetch the annotations for the currently loaded url from storage, and then display the annotations
 const fetchAnnotations = (url) => {
   return chrome.storage.sync.get([url], (result) => {
     const annotations = result[url];
@@ -46,6 +49,7 @@ const fetchAnnotations = (url) => {
   });
 };
 
+// Render each annotation by sending a message to the content script with the annotations so that it can inject the annotation into the DOM
 const displayAnnotations = (annotations) => {
   console.log('Rendering annotations', annotations);
 
