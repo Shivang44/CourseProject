@@ -15,3 +15,11 @@ Please see "410 Proposal.pdf" for the proposal
 ## Progress Report
 
 Please see "Progress Report.pdf" for the project progress report
+
+## Software code
+
+Please see the directory "chrome_extension" for the source code of the extension.
+
+## Documentation
+
+Please see "Documentation.pdf" for the complete project documentation
