@@ -24,6 +24,6 @@ Please see the directory "chrome_extension" for the source code of the extension
 
 Please see "Documentation.pdf" for the complete project documentation
 
-## Software Usage Tutorial Presentation
+## Software Usage Tutorial Presentation (and testing demo)
 
 Please see "GithubAnnotationSystem.mp4" for a presentation on the extension, installation instructions, and a usage demo with a test case.
